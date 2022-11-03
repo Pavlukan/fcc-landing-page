@@ -9,8 +9,6 @@
     padding: 0;
 }
 
-
-
 body {
     height: 100vh;
     background: linear-gradient(
@@ -18,4 +16,38 @@ body {
         var(--steelBLueColor)
     );
     color: var(--oxfordBlueColor);
+}
+
+#header {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#header-img {
+    height: 64px;
+    width: 64px;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 64px;
+    font-size: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
