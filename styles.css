@@ -10,6 +10,7 @@
 }
 
 body {
+    font-family: "Rubik", sans-serif;
     height: 100vh;
     background: linear-gradient(
         var(--icebergColor),
@@ -37,6 +38,7 @@ body {
 }
 
 h1 {
+    font-family: "Permanent Marker", cursive;
     font-size: 2.4rem;
 }
 
