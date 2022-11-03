@@ -1,5 +1,6 @@
 :root {
     --icebergColor: #84ACCE;
+    --steelBLueColor: #537999;
     --oxfordBlueColor: #0B2545;
 }
 
@@ -11,6 +12,10 @@
 
 
 body {
-    background-color: var(--icebergColor);
+    height: 100vh;
+    background: linear-gradient(
+        var(--icebergColor),
+        var(--steelBLueColor)
+    );
     color: var(--oxfordBlueColor);
 }
