@@ -5,6 +5,7 @@
 }
 
 *, ::before, ::after {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -27,6 +28,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    background-color: var(--icebergColor);
+    min-height: 40px;
 }
 
 .logo-wrapper {
@@ -70,6 +78,10 @@ section, #header {
     flex-direction: column;
     align-items: center;
     gap: 16px;
+}
+
+#Why-us {
+    margin-top: 120px;
 }
 
 h2 {
