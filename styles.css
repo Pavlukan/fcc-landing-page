@@ -67,9 +67,10 @@ a {
 
 section {
     padding: 24px 64px;
+    margin-bottom: 24px;
 }
 
-section, #header {
+#header {
     margin-bottom: 42px;
 }
 
