@@ -56,8 +56,8 @@ h1 {
 ul {
     list-style: none;
     display: flex;
-    gap: 64px;
-    font-size: 1.4rem;
+    gap: 42px;
+    font-size: 1.3rem;
 }
 
 a {
