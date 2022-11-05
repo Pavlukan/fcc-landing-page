@@ -207,5 +207,6 @@ input[type="submit"] {
 
 iframe {
     height: 315px;
-    width: 550px;
+    width: calc(100% / 3);
+    min-width: 300px;
 }
