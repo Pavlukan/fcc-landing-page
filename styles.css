@@ -2,6 +2,7 @@
     --icebergColor: #84ACCE;
     --steelBLueColor: #537999;
     --oxfordBlueColor: #0B2545;
+    --orangeColor: #FF8018;
 }
 
 *, ::before, ::after {
@@ -147,7 +148,7 @@ ul {
     padding: 6px 24px;
     margin: 12px 0;
 
-    background-color: rgb(255, 128, 24);
+    background-color: var(--orangeColor);
     color: var(--oxfordBlueColor);
 
     text-transform: uppercase;
@@ -214,11 +215,33 @@ input[type="submit"] {
 
 #Workout {
     text-align: center;
+    margin-bottom: 12px;
 }
 
 iframe {
     height: 315px;
     width: calc(100% / 3);
     min-width: 300px;
+}
+
+/* FOOTER STYLING */
+
+footer {
+    font-size: 1.2rem; 
+
+    text-align: center;
+    padding: 24px;
+
+    background-color: var(--oxfordBlueColor);
+    color: var(--icebergColor);
+}
+
+footer a {
+    font-weight: 500;
+    color: var(--orangeColor);
+}
+
+footer a:hover {
+    color: #C55900;
 }
 
