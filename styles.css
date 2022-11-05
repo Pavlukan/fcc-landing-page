@@ -156,13 +156,13 @@ p {
     background-color: var(--icebergColor);
 }
 
-.instructors {
+.customers {
     justify-content: center;
     display: flex;
     gap: 24px;
 }
 
-.instructor {
+.customer {
     border: 3px solid var(--oxfordBlueColor);
     padding: 24px;
     border-radius: 6px;
@@ -173,7 +173,7 @@ p {
     gap: 12px;
 }
 
-.instructor-name {
+.customer-name {
     margin-bottom: 12px;
     font-size: 1.4rem;
     font-weight: 500;
