@@ -172,6 +172,7 @@ ul {
 
 .customers {
     justify-content: center;
+    align-items: center;
     display: flex;
     gap: 24px;
 }
@@ -251,6 +252,17 @@ footer a:hover {
     color: #C55900;
 }
 
+@media (max-width: 950px) {
+    .customers {
+        flex-flow: column wrap;
+    }
+}
+
+@media (max-width: 960px) {
+    #Why-us {
+        margin-top: 200px;
+    }
+}
 
 
 
