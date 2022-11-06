@@ -256,11 +256,49 @@ footer a:hover {
     .customers {
         flex-flow: column wrap;
     }
+
+    #header {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .logo-wrapper {
+        text-align: center;
+    }
+
+    #header-img {
+        height: 48px;
+        width: 48px;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    ul {
+        flex-flow: row wrap;
+        justify-content: center;
+        font-size: 1.1rem;
+    }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 965px) {
     #Why-us {
-        margin-top: 200px;
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 400px) {
+    #Why-us {
+        margin-top: 240px;
     }
 }
 
