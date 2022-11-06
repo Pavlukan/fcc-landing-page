@@ -224,7 +224,7 @@ input[type="submit"] {
     margin-bottom: 12px;
 }
 
-iframe {
+#video {
     height: 315px;
     width: calc(100% / 3);
     min-width: 300px;
